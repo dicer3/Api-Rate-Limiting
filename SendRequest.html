@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Send Request to Routes</title>
+</head>
+<link rel="stylesheet" href="SendRequestStyle.css">
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script  src='ProcessRequest.js'></script>
+<body class="body">
+    <div class="box">
+        <div class="header">
+            <div class="HeaderTitle"> 
+               <h1>
+                 API Rate Limiting
+                </h1>
+            </div>
+        </div>       
+        <div class="FlexBox">    
+            <div>
+                <p></p>
+                <button onclick="DevRequest()" class="button">
+    	           Access Developers Route
+                </button>
+                <p id="DevAnswerDisplay" class="DevAnswerDisplay"></p>
+                <button onclick="OrgRequest()" class="button">
+    	           Access Organisations Route
+                </button>
+                <p id="OrgAnsDisplay" class="OrgAnsDisplay"></p>
+                <p></p>
+            </div>
+        </div>
+   </div> 
+</body>
+</html>
+
+
+

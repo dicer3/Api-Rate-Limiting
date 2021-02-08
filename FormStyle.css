@@ -1,0 +1,52 @@
+.body
+{
+  margin:0;
+  padding:0; 
+}
+.FlexBox 
+{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.box 
+{
+  height: 300px;
+  height: 100vh;
+  width: 100vw;
+  color:#666 ;
+  font-family: "Bookman", Monaco, monospace;
+  background:#364051;
+}
+.button
+{
+  color: white;
+  background: #1c88bf;
+  border:none;
+  padding: 0.8rem 0.8rem;
+  margin:0;
+  font-weight: 100;
+  font-size: 1rem;
+  text-align:center;
+}
+.header
+{
+  background-color: #333333;
+  margin: 0;
+  padding: 0;
+}
+.HeaderTitle
+{
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+.TextInput
+{
+  border: 1px solid #cacccd;
+  padding: 0.4rem;
+  width:250px;
+  font-weight: 100;
+  font-size: 0.8;
+}
